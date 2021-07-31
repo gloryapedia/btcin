@@ -1,7 +1,7 @@
 # Cek sampai bawah!!
 Basic   ={
-        "Username"             : "jantanzxz",
-        "Password"             : "Pejantan17#",
+        "Username"             : "pornhub",
+        "Password"             : "xnxx",
         "BL-Key"               : "xxxxxxxxx",
 
         "2FA"                  : "OFF",     # Keep this OFF if your 2FA isn't used
@@ -11,7 +11,7 @@ Basic   ={
         "Reset If Win Streak"  : 1,
         "Reset If Lose Streak" : 0,
 
-        "Target Balance"       : 250,
+        "Target Balance"       : 10,
 
         # Delay if basebet larger than 'X'
         "If Base Bet"          :{
@@ -22,46 +22,46 @@ Basic   ={
 
 Manual  ={
 
-        "Base Bet"     : 0.000014,
+        "Base Bet"     : 0.0000014,
         "Max Base Bet" : 0,
         "Chance"       :{
-                        "Min": 49,
-                        "Max": 65
+                        "Min": 11,
+                        "Max": 11
                         },
 
-        "HiLo"         : "AUTO",  # AUTO / H / L
+        "HiLo"         : "L",  # AUTO / H / L
 
         "If Win"       : 1,
-        "If Lose"      : 2.7,
-        "Number Bets"  : 0,    # Before excecuting Jump Set
+        "If Lose"      : 1.144,
+        "Number Bets"  : 10,    # Before excecuting Jump Set
         "Jump Status"  : "ON",
         "Jump Set"     :[
                 {
                 "Comment"       : "boom",
                 "Status"        : "on",
-                "Base Bet"      : 0.00001,
-                "Repeat Bets"   : 3,
+                "Base Bet"      : 0.000006,
+                "Repeat Bets"   : 9,
                 "Chance"  :{
-                           "Min": 60,
-                           "Max": 64
+                           "Min": 6,
+                           "Max": 8
                            }
                 },{
                 "Comment"       : "tuyul",
                 "Status"        : "on",
-                "Base Bet"      : 0.000035,
-                "Repeat Bets"   : 5,
+                "Base Bet"      : 0.0000120,
+                "Repeat Bets"   : 9,
                 "Chance"  :{
-                           "Min": 54,
-                           "Max": 59
+                           "Min": 6,
+                           "Max": 8
                            }
                 },{
                 "xComment"       : "semvak",
                 "Status"        : "on",
-                "Base Bet"      : 0.00007,
-                "Repeat Bets"   : 10,
+                "Base Bet"      : 0.0000240,
+                "Repeat Bets"   : 9,
                 "Chance"  :{
-                           "Min": 49,
-                           "Max": 53
+                           "Min": 6,
+                           "Max": 8
                            }
                 }
             ]
@@ -75,11 +75,11 @@ ClientSeed ={
             }
 
 Extra   ={
-        "Target Profit"        : 3.78,
+        "Target Profit"        : 1.5,
         "Target Lose"          : 0,
 
         "Action"               : "Relogin",  # Sleep or ReLogin
-        "Delay"                : 3
+        "Delay"                : 300
         }
 
 #•••••••••••••••••••••••••••••••••••••••••••••••
