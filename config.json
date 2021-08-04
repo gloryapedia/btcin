@@ -1,0 +1,158 @@
+
+{
+ "Account": {
+     "Username": "xxx",
+     "Password": "xxx",
+     "2FA": "Off"
+ },
+ "Cut Lose": "Off",
+ "Client Seed": {
+     "Toggle": "On",
+     "If Random Chance": "On",
+     "If Base Bet": "0.00000001",
+     "If Lose Streak": "1"
+  },
+ "Currency": "Doge",
+ "Target Profit": {
+      "Target Profit": "10.00000001",
+      "Relogin If Target Profit": {
+          "Toggle": "on",
+          "Interval": "1"
+      }
+ },
+ "Target Lose": "100",
+ "Target Balance": "12660",
+ "Auto Change Betset": {
+     "Reset to Base Bet": "On",
+     "If Profit": "0.100000001",
+     "If Lose Streak": "300",
+     "If Win Streak": "3",
+     "Interval": "0"
+ },
+ "Config": [{
+     "Name Bet Set": "c60 by fsmart",
+     "Base Bet": "0.0051",
+     "Max Bet": "0",
+     "Chance": "56",
+     "Random Chance": {
+          "Toggle": "on",
+          "Min": "33",
+          "Max": "69.1",
+          "If Base Bet": "0.000002",
+          "Reset Chance": "1"
+     },
+     "Bet": {
+          "Bet": "Low",
+          "Hi / Low": {
+              "Toggle": "On",
+              "If Lose Streak": "1",
+              "If Win Streak": "5",
+              "If Bets":"3",
+              "Random":"ON"
+          }
+     },
+     "If Win": "0.68",
+     "If Lose": "1.6",
+     "Repeat Jump If Lose": "on",
+     "Jump If Lose": [{
+          "Name": "Jump 1",
+          "Toggle": "on",
+          "If Lose": "1.4",
+          "Number Of Bets": "5"
+          },{
+          "Name": "Jump 2",
+          "Toggle": "off",
+          "If Lose": "1.251",
+          "Number Of Bets": "2"
+          },{
+          "Name": "Jump 3",
+          "Toggle": "off",
+          "If Lose": "1.252",
+          "Number Of Bets": "2"
+          },{
+          "Name": "Jump 4",
+          "Toggle": "off",
+          "If Lose": "1.253",
+          "Number Of Bets": "2"
+          },{
+          "Name": "Jump 5",
+          "Toggle": "off",
+          "If Lose": "1.254",
+          "Number Of Bets": "2"
+          },{
+          "Name": "Jump 6",
+          "Toggle": "off",
+          "If Lose": "1.255",
+          "Number Of Bets": "2"
+          },{
+          "Name": "Jump 7",
+          "Toggle": "off",
+          "If Lose": "1.256",
+          "Number Of Bets": "2"
+          },{
+          "Name": "Jump 8",
+          "Toggle": "off",
+          "If Lose": "1.255",
+          "Number Of Bets": "0"
+          }
+     ],
+     "Reset If Win Streak": "2",
+     "Reset If Lose Streak":"10",
+     "Reset If Profit": "0.0000001",
+     "Interval": "1"
+     },{
+     "Name Bet Set": "c24 by fsmart",
+     "Base Bet": "0.0001",
+     "Max Bet": "0",
+     "Chance": "24",
+     "Random Chance": {
+          "Toggle": "on",
+          "Min": "33",
+          "Max": "66",
+          "If Base Bet": "0.00000010",
+          "Reset Chance": "1"
+     },
+     "Bet": {
+          "Bet": "Low",
+          "Hi / Low": {
+              "Toggle": "On",
+              "If Lose Streak": "3",
+              "If Win Streak": "0",
+              "If Bets":"3",
+              "Random":"ON"
+          }
+     },
+     "If Win": "0.7",
+     "If Lose": "1.6",
+     "Repeat Jump If Lose": "on",
+     "Jump If Lose": [{
+          "Name": "Jump 1",
+          "Toggle": "on",
+          "If Lose": "1.4001",
+          "Number Of Bets": "4"
+          },{
+          "Name": "Jump 2",
+          "Toggle": "off",
+          "If Lose": "1.7",
+          "Number Of Bets": "0"
+          },{
+          "Name": "Jump 3",
+          "Toggle": "off",
+          "If Lose": "10",
+          "Number Of Bets": "0"
+          }
+     ],
+     "Reset If Win Streak": "2",
+     "Reset If Lose Streak":"10",
+     "Reset If Profit": "0.0000001",
+     "Interval": "1"
+     }
+  ],
+  "Auto Wd": {
+       "Toggle": "OFF",
+       "If Balance": "1150",
+       "Wallet Address": "",
+       "Amount": "101"
+      },
+  "User-Agent": "Android Phone / Chrome 61 [Mobile]: Mozilla/5.0 (Linux; Android 12.5; Marvel Xcore7 Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.98 Mobile Safari/537.36"
+}
